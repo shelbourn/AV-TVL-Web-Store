@@ -1,0 +1,197 @@
+/* CSS Document */
+
+*{
+	padding:0;
+	margin:0;}
+	
+a{
+	text-decoration:none;}
+	
+	
+img{border:none;
+	outline:none;}
+	
+iframe{
+	border:none;
+	outline:none;}
+	
+html, body{
+	width:100%;
+	height:100%;
+	background-size:cover;
+	background-repeat:no-repeat;}
+
+/* iFrame overlay */
+
+#AVcontentBG{
+	position:fixed;
+	left:50%;
+	top:100px;
+	margin-left:-150px;
+	height:300px;
+	width:300px;
+	background-color:#FFF;
+    border: 10px;
+    border-color: #000;
+	filter: alpha(opacity=50); /* internet explorer */
+    -khtml-opacity: 0.5;      /* khtml, old safari */
+    -moz-opacity: 0.5;       /* mozilla, netscape */
+    opacity: 0.8;}
+	
+#AVtext{
+	color:#000;
+	font-family:Helvetica;
+	position:absolute;
+	left:50%;
+	width:300px;
+	margin-left:-150px;
+	top:130px;
+	text-align:center;
+	font-size:24px;
+	font-weight:lighter;}
+	
+#AVtextMDY{
+	color:#000;
+	font-family:Helvetica;
+	position:absolute;
+	left:50%;
+	width:300px;
+	margin-left:-150px;
+	top:120px;
+	text-align:center;
+	font-size:18px;
+	font-weight:lighter;}
+	
+#MM, #DD, #YY{
+	color:#000;
+	position:absolute;
+	font-size:16px;
+	letter-spacing:1px;
+	left:50%;
+	top:307px;
+	font-family:Helvetica;
+	font-weight:lighter;}
+	
+#MM{
+	margin-left:-107px;}
+	
+#DD{
+	margin-left:-35px;}
+	
+#YY{
+	margin-left:49px;}
+	
+#AVBGLink{
+	color:#CCC;
+	font-family:Helvetica;
+	width:140px;
+	left:50%;
+	margin-left:-70px;
+	text-align:center;
+	font-size:14px;
+	position:absolute;
+	top:280px;
+	font-weight:100;
+	background-image:url(../images/bg_greenCheck.png);
+	background-repeat:no-repeat;
+	background-position:left top;
+	filter: alpha(opacity=90); /* internet explorer */
+    -khtml-opacity: 1.0;      /* khtml, old safari */
+    -moz-opacity: 1.0;       /* mozilla, netscape */
+    opacity: none;
+	padding-top:2px;
+	padding-left:5px;}
+	
+#AVBGLink:hover{
+	color:#fff;
+	border-bottom:1px dotted #fff;}
+	
+#AViframe{
+	height:100%;
+	width:100%;}
+	
+	/*
+body.opaque{
+	background-image:url(../images/black50.png);
+	background-repeat:repeat;}*/
+	
+#AVopaqueBG{
+	position:absolute;
+	left:0px;
+	top:0px;
+	height:100%;
+	width:100%;
+	background-color:#000;
+	filter: alpha(opacity=70); /* internet explorer */
+    -khtml-opacity: 0.7;      /* khtml, old safari */
+    -moz-opacity: 0.7;       /* mozilla, netscape */
+    opacity: 0.7;}
+
+/* Stylesheet Used */
+	
+body.vaping2{
+	background: rgba(0, 0, 0, 0.8);
+	background-position:center top;}
+	
+#AVpattern { 
+    height:100%;
+	width:100%;
+	background: transparent url(../images/pattern.png) repeat top left;}
+	
+img:hover{border: 2px solid #fff;
+		margin-left:-2px;}
+		
+#overlay{
+	height:100%;
+	width:100%;
+	background-image:url(../images/black50.png);
+	background-repeat:repeat;
+	position:absolute;
+	top:0;
+	left:0;}
+	
+#AVlink{
+	position:absolute;
+	right:0px;
+	bottom:0px;
+	opacity: 0.2;}
+	
+#AVlink:hover{
+	opacity:1.0;}
+	
+#IDlogo{
+	position:absolute;
+	left:50%;
+	margin-left:-125px;
+	width:250px;
+	height:47px;
+	outline:none;
+	border:none;
+	bottom:0px;
+	opacity: 0.6;
+	background-image:url(../images/black50.png);
+	background-repeat:repeat;}
+	
+#IDlogo:hover{
+	opacity:1.0;}
+	
+@media screen and (max-width: 599px),
+screen and (max-width: 599px) and (orientation: portrait) {
+    
+body.vaping{
+	background-image:url(../images/vapingPhone.jpg);}
+	
+#AVlink{display:none;}
+
+/* new updates */
+#AVcontentBG{
+	top:20px;
+	height:330px;}
+	
+#AVtextMDY{
+	top:195px;}
+
+#MM, #DD, #YY{
+	top:107px;}
+	
+}
