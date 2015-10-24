@@ -12,22 +12,8 @@ document.getElementById("AVcontentBox").style.display="none";
 document.getElementById("avLink").style.display="none";
 document.getElementById("AVenterLink").style.display="none";
 
-var AVavalie = document.createElement("iframe");
-   AVavalie.setAttribute("id","AVavalie");
-   AVavalie.setAttribute("src","https://av.ageverify.co/iframes/AvalieIndex.html");
-   AVavalie.style.width = "100%";
-   AVavalie.style.height = "115px";
-   AVavalie.style.setProperty('position', 'fixed', 'important');
-   AVavalie.style.setProperty('margin','0px','important');
-   AVavalie.style.setProperty('padding','0px','important');
-   AVavalie.style.left = "0";
-   AVavalie.style.bottom = "0";
-   AVavalie.style.zIndex = "100001";
-   AVavalie.style.border = "0";
-   document.body.appendChild(AVavalie);
-   
 
-setTimeout(function(){document.getElementById("AVavalie").style.display="none";document.getElementById("AVcredLink").style.display="none";},7000);}
+}
 
 document.addEventListener("DOMContentLoaded", function ageVerify() {
 	
@@ -35,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function ageVerify() {
 	
 	var AVoverlay = document.createElement("iframe");
    AVoverlay.setAttribute("id","AVoverlay");
-   AVoverlay.setAttribute("src","https://av.ageverify.co/iframes/vaping2.html");
+   AVoverlay.setAttribute("src","/content/TVL-iFrame.html");
    AVoverlay.style.width = "100%";
    AVoverlay.style.height = "100%";
    AVoverlay.style.setProperty('position', 'fixed', 'important');
@@ -55,20 +41,20 @@ document.addEventListener("DOMContentLoaded", function ageVerify() {
    AVcontentBox.style.width = "300px";
    AVcontentBox.style.zIndex = "100001"; 
    AVcontentBox.style.textAlign = "center";
-   AVcontentBox.style.setProperty('color', '#fff', 'important');
+   AVcontentBox.style.setProperty('color', '#000', 'important');
    AVcontentBox.style.setProperty('font-size', '28px', 'important');
    AVcontentBox.style.setProperty('font-family', 'Helvetica', 'important');
 AVcontentBox.style.setProperty('letter-spacing', '0px', 'important');
 AVcontentBox.style.setProperty('text-transform', 'none', 'important');
    AVcontentBox.style.paddingTop = "20px";
    AVcontentBox.style.lineHeight = "30px";
-   AVcontentBox.innerHTML = "Welcome!<br /><br />Please verify your<br />age to enter.";
+   AVcontentBox.innerHTML = "<img src=\'/content/Vapour_Lounge_Logo.png\'><br />Please verify your<br />age to enter.";
    document.body.appendChild(AVcontentBox);
    
    var avLink = document.createElement("input");
    avLink.setAttribute("id","avLink");
    avLink.setAttribute("type","button");
-   avLink.setAttribute("onclick","window.location='https://ageverify.co/';");
+   avLink.setAttribute("onclick","window.location='http://www.google.com';");
    
    avLink.style.position = "fixed";
    avLink.style.cursor = "pointer";
@@ -86,10 +72,10 @@ avLink.style.setProperty('text-transform', 'none', 'important');
 avLink.style.setProperty('padding','0','important');
 avLink.style.setProperty('font-family','Helvetica','important');
 avLink.style.setProperty('font-weight','lighter','important');
-   avLink.style.setProperty('background-color', '#438ab7', 'important');
+   avLink.style.setProperty('background-color', '#03ac6c', 'important');
 avLink.style.setProperty('background-image', 'none', 'important');
-   avLink.setAttribute("onMouseOver","this.style.setProperty('background-color','#009900','important')");
-avLink.setAttribute("onMouseOut","this.style.setProperty('background-color','#438ab7','important')");
+   avLink.setAttribute("onMouseOver","this.style.setProperty('background-color','#8b8b8b','important')");
+avLink.setAttribute("onMouseOut","this.style.setProperty('background-color','#03ac6c','important')");
    avLink.style.setProperty('border', '0', 'important');
 avLink.style.setProperty('border-radius', '0', 'important');
 avLink.style.setProperty('outline', 'none', 'important');
@@ -119,10 +105,10 @@ AVenterLink.style.setProperty('text-transform', 'none', 'important');
 AVenterLink.style.setProperty('padding','0','important');
 AVenterLink.style.setProperty('font-family','Helvetica','important');
 AVenterLink.style.setProperty('font-weight','lighter','important');
-   AVenterLink.style.setProperty('background-color', '#438ab7', 'important');
+   AVenterLink.style.setProperty('background-color', '#03ac6c', 'important');
 AVenterLink.style.setProperty('background-image', 'none', 'important');
-   AVenterLink.setAttribute("onMouseOver","this.style.setProperty('background-color','#009900','important')");
-AVenterLink.setAttribute("onMouseOut","this.style.setProperty('background-color','#438ab7','important')");
+   AVenterLink.setAttribute("onMouseOver","this.style.setProperty('background-color','#8b8b8b','important')");
+AVenterLink.setAttribute("onMouseOut","this.style.setProperty('background-color','#03ac6c','important')");
    AVenterLink.style.setProperty('border', '0', 'important');
 AVenterLink.style.setProperty('border-radius', '0', 'important');
 AVenterLink.style.setProperty('outline', 'none', 'important');
@@ -131,31 +117,6 @@ AVenterLink.style.setProperty('box-shadow', 'none', 'important');
    AVenterLink.style.setProperty('-webkit-appearance', 'none', 'important');
 document.getElementById('AVcontentBox').appendChild(AVenterLink);
 
-if( window.innerWidth >= 800 ) {
-var AVcredLink = document.createElement("a");
-   AVcredLink.setAttribute("id","AVcredLink");
-   AVcredLink.setAttribute("rel","author");
-   AVcredLink.setAttribute("href","https://ageverify.co/");
-   AVcredLink.style.position = "fixed";
-   AVcredLink.style.cursor = "pointer";
-   AVcredLink.style.right = "0px";
-   AVcredLink.style.bottom = "0px";
-   AVcredLink.style.setProperty('overflow','hidden','important');
-   AVcredLink.style.setProperty('background-image', "url(https://av.ageverify.co/images/av_logo.jpg)", 'important');
-   AVcredLink.style.setProperty('background-repeat','no-repeat','important');
-   AVcredLink.style.setProperty('opacity', '0.2', 'important');
-   AVcredLink.setAttribute("onMouseOver","this.style.setProperty('opacity','1.0','important')");
-   AVcredLink.setAttribute("onMouseOut","this.style.setProperty('opacity','0.2','important')");
-   AVcredLink.style.setProperty('width', '48px', 'important');
-   AVcredLink.style.setProperty('height', '48px', 'important');
-   AVcredLink.style.setProperty('border', '0', 'important');
-   AVcredLink.style.setProperty('border-radius', '0', 'important');
-   AVcredLink.style.setProperty('outline', 'none', 'important');
-   AVcredLink.style.setProperty('box-shadow', 'none', 'important');
-   AVcredLink.style.setProperty('-webkit-appearance', 'none', 'important');
-   AVcredLink.style.zIndex = "100001";
-   AVcredLink.innerHTML = "<br /><br /><br /><br />Website Age Checker & Age Verification Pop Up Script by AgeVerify.co";
-   document.body.appendChild(AVcredLink);
-	};
+
 }else{};
 }, false);
