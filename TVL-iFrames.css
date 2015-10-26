@@ -12,7 +12,8 @@ img{border:none;
 	outline:none;}
 	
 iframe{
-	border:none;
+	border:10px;
+    border-color: #000;  
 	outline:none;}
 	
 html, body{
@@ -31,8 +32,6 @@ html, body{
 	height:300px;
 	width:300px;
 	background-color:#FFF;
-    border: 10px;
-    border-color: #000;
 	filter: alpha(opacity=50); /* internet explorer */
     -khtml-opacity: 0.5;      /* khtml, old safari */
     -moz-opacity: 0.5;       /* mozilla, netscape */
