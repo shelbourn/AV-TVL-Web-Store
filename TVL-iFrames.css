@@ -107,7 +107,6 @@ html, body{
 #AViframe{
 	height:100%;
 	width:100%;}
-	
 	/*
 body.opaque{
 	background-image:url(../images/black50.png);
@@ -134,6 +133,8 @@ body.vaping2{
 #AVpattern { 
     height:100%;
 	width:100%;
+    border: 20px;
+    border-color: #000;
 	background: transparent url(../images/pattern.png) repeat top left;}
 	
 img:hover{border: 2px solid #fff;
