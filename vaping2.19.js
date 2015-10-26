@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function ageVerify() {
    AVoverlay.style.setProperty('left', '0px', 'important');
    AVoverlay.style.setProperty('top', '0px', 'important');
    AVoverlay.style.zIndex = "100000";
-   AVoverlay.style.border = "10px";
+   AVoverlay.style.border = "0";
    document.body.appendChild(AVoverlay);
    
    var AVcontentBox = document.createElement("div");
