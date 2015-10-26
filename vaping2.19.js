@@ -43,7 +43,6 @@ document.addEventListener("DOMContentLoaded", function ageVerify() {
    AVcontentBox.style.textAlign = "center";
    AVcontentBox.style.setProperty('color', '#000', 'important');
    AVcontentBox.style.setProperty('font-size', '28px', 'important');
-    AVcontentBox.style.border = "10px solid black";
    AVcontentBox.style.setProperty('font-family', 'Helvetica', 'important');
 AVcontentBox.style.setProperty('letter-spacing', '0px', 'important');
 AVcontentBox.style.setProperty('text-transform', 'none', 'important');
