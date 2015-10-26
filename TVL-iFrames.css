@@ -106,7 +106,9 @@ html, body{
 	
 #AViframe{
 	height:100%;
-	width:100%;}
+	width:100%;
+    border: 20px;
+    border-color: #000;}
 	
 	/*
 body.opaque{
