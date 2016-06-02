@@ -113,7 +113,7 @@ AVenterLink.setAttribute("onMouseOut","this.style.setProperty('background-color'
 AVenterLink.style.setProperty('border-radius', '0', 'important');
 AVenterLink.style.setProperty('outline', 'none', 'important');
 AVenterLink.style.setProperty('box-shadow', 'none', 'important');
-   AVenterLink.setAttribute("value","18 & Over");
+   AVenterLink.setAttribute("value","21 & Over");
    AVenterLink.style.setProperty('-webkit-appearance', 'none', 'important');
 document.getElementById('AVcontentBox').appendChild(AVenterLink);
 
