@@ -80,7 +80,7 @@ avLink.setAttribute("onMouseOut","this.style.setProperty('background-color','#03
 avLink.style.setProperty('border-radius', '0', 'important');
 avLink.style.setProperty('outline', 'none', 'important');
 avLink.style.setProperty('box-shadow', 'none', 'important');
-   avLink.setAttribute("value","Under 18");
+   avLink.setAttribute("value","Under 21");
    avLink.style.setProperty('-webkit-appearance', 'none', 'important');
 document.getElementById('AVcontentBox').appendChild(avLink);
    
